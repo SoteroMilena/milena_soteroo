@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         /*const x ="Milena";
+        
+       function test(){
+            const x ="Soteroo";
+            console.log(x);
+          
+        }
+        console.log(x);
+        console.log(y);*/
+    //Meu jeito --->
+      function livro(nome, ano, autor) {
+        /*console.log(nome.toUpperCase()),
+        console.log(2050-ano),
+        console.log(`${nome} por ${autor}`)
+        */
+        const obj = {
+            nome: nome.toUpperCase(),
+            ano: 2050 - ano,
+            frase: `${nome} por ${autor}`
+        };
+        return obj;
+    }
+    
+    const mostra = livro("cinderela", 1999, "Jhemys Hourker");
+    console.log(mostra);
+    
+    </script>
+</body>
+</html>
